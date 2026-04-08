@@ -30,8 +30,9 @@ public class sendMoneyIterativo {
 
         while (indice >= 0) {
             if (indice == letras.length) {
-                if (esSumaCorrecta())
+                if (esSumaCorrecta()) {
                     return true;
+                }
                 indice--;
                 continue;
             }
@@ -61,8 +62,9 @@ public class sendMoneyIterativo {
     }
 
     private boolean esDigitoValido(int digito, int indice) {
-        if (usado[digito])
+        if (usado[digito]) {
             return false;
+        }
 
         if (digito == 0 && (letras[indice] == 'S' || letras[indice] == 'M')) {
             return false;
