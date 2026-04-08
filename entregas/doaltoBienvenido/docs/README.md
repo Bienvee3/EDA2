@@ -1,6 +1,6 @@
 # Solución de Criptoaritmética: [SEND + MORE = MONEY](entregas\doaltoBienvenido\src\sendMoney.java)
 
-Realizado por Bienvenido Doalto, Javier Liaño, Alejandra Cuesta y Juan Carlos Quintana.
+Realizado por [Bienvenido Doalto](https://www.github.com/bienvee3), [Javier Liaño](https://www.github.com/javierlianorioz), [Alejandra Cuesta](https://www.github.com/alejandracuesta) y [Juan Carlos Quintana](https://www.github.com/javierquintanaing).
 
 ##  Descripción del Problema
 La ecuación a resolver es:
