@@ -22,8 +22,7 @@ public class insertionSort {
             }
 
             if (j >= 0) {
-                System.out.println(
-                        " Array[" + j + "] = " + array[j] + " > " + actual + "? NO. (Posición encontrada)");
+                System.out.println(" Array[" + j + "] = " + array[j] + " > " + actual + "? NO. (Posición encontrada)");
             } else {
                 System.out.println("Se alcanzo el limite izquierdo del array");
             }
@@ -32,12 +31,12 @@ public class insertionSort {
             System.out.print("Resultado de iteracion : ");
             imprimirArray(array);
             System.out.println();
-            System.out.println("-----------------------------");
+            System.out.println("-".repeat(20));
         }
 
     }
 
-    public static void imprimirArray(int[] array) {
+    private static void imprimirArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
             if (i < array.length - 1) {

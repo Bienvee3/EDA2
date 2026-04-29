@@ -46,10 +46,10 @@ public class insertionSortRecursivo {
         System.out.print(ind + "Resultado de iteracion: ");
         imprimirArray(array);
         System.out.println();
-        System.out.println(ind + "-----------------------------");
+        System.out.println(ind + "-".repeat(20));
     }
 
-    public static void imprimirArray(int[] array) {
+    private static void imprimirArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
             if (i < array.length - 1) {
