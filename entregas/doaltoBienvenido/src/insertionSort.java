@@ -51,9 +51,11 @@ public class insertionSort {
 
         System.out.print("ESTADO INICIAL: ");
         imprimirArray(array);
+        System.out.println();
 
         ordenar(array);
 
+        System.out.println();
         System.out.print("ESTADO FINAL: ");
         imprimirArray(array);
     }
