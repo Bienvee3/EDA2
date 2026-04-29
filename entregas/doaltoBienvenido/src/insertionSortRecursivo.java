@@ -1,4 +1,4 @@
-public class insertionSortRecursivo {
+public class InsertionSortRecursivo {
 
     public static void ordenar(int[] array, int n, int nivel) {
         String ind = "";

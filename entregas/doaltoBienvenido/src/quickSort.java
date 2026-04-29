@@ -1,4 +1,4 @@
-public class quickSort {
+public class QuickSort {
 
     public static void ordenar(int[] array, int izquierda, int derecha, int nivel) {
         String ind = "";

@@ -1,4 +1,4 @@
-public class mergeSortIterativo {
+public class MergeSortIterativo {
 
     public static void ordenarIterativo(int[] array) {
         int n = array.length;

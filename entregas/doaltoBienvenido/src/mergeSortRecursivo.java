@@ -1,4 +1,4 @@
-public class mergeSortRecursivo {
+public class MergeSortRecursivo {
 
     public static void ordenar(int[] array, int izquierda, int derecha, int nivel) {
         String ind = "";
